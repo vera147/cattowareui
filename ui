@@ -22,7 +22,7 @@ local camera = game.Workspace.CurrentCamera
 library.theme = {
     fontsize = 15,
     titlesize = 18,
-    font = Enum.Font.Code,
+    font = Enum.Font.Legacy, -- default = code
     background = "",
     tilesize = 90,
     cursor = true,
